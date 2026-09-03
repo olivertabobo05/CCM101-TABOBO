@@ -1,4 +1,4 @@
-# Microsoft Azure Research
+# Azure Research
 
 ## Brief Overview
 
