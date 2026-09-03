@@ -39,21 +39,3 @@ I would personally choose AWS because it provides a very broad range of services
 | Identity Management | AWS IAM    | Microsoft Entra ID             | Cloud IAM                      |
 | SQL Database        | Amazon RDS | Azure SQL Database             | Cloud SQL                      |
 | Kubernetes          | Amazon EKS | Azure Kubernetes Service (AKS) | Google Kubernetes Engine (GKE) |
-
----
-
-# Multi-Cloud Decision Matrix
-
-| Business Requirement    | Recommended Platform | Justification                                                                                |
-| ----------------------- | -------------------- | -------------------------------------------------------------------------------------------- |
-| Startup Company         | AWS                  | AWS offers many services and scalable infrastructure that can support a startup as it grows. |
-| Enterprise Organization | AWS                  | AWS provides a broad range of enterprise services and global infrastructure.                 |
-| Microsoft Environment   | Azure                | Azure provides strong integration with Microsoft technologies and hybrid environments.       |
-| AI / Machine Learning   | Google Cloud         | Google Cloud provides strong AI/ML infrastructure and services.                              |
-| Kubernetes Deployment   | Google Cloud         | Google Kubernetes Engine provides a managed Kubernetes environment.                          |
-| Global Web Application  | AWS                  | AWS provides a large global infrastructure with multiple Regions and Availability Zones.     |
-
-## Overall Comparison
-
-AWS, Azure, and Google Cloud all provide similar fundamental cloud capabilities, including virtual machines, object storage, networking, databases, identity management, and container services. The main difference is their areas of strength. AWS is known for its broad service portfolio, Azure is especially strong for Microsoft-based organizations, and Google Cloud is particularly attractive for AI, data analytics, and Kubernetes workloads.
-
