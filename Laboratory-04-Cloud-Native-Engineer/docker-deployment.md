@@ -114,18 +114,18 @@ This command permanently removes the stopped `nginx-server` container from the D
 
 ### Docker Environment
 
-![Docker version and status](screenshots/docker-version.png)
+screenshots/docker-version.png
 
 The screenshot above provides evidence of the Docker version and Docker environment status.
 
 ### Nginx Running
 
-![Nginx running](screenshots/nginx-running.png)
+screenshots/nginx-running.png
 
 The screenshot above provides evidence that the Nginx web server responded successfully to the local HTTP request.
 
 ### Container Lifecycle
 
-![Container lifecycle](screenshots/container-lifecycle.png)
+screenshots/container-lifecycle.png
 
 The screenshot above provides evidence of the container lifecycle commands, including listing, stopping, verifying, and removing the container.
