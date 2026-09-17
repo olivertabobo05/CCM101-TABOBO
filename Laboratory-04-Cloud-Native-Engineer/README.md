@@ -1,11 +1,5 @@
 # Laboratory 04 – Cloud-Native Engineer
 
-**Course:** CCM 101 - Cloud Computing Architecture & System Administration  
-**Author:** Oliver V.Tabobo 
-**Section:** BSIT 4F  
-**Institution:** University of Eastern Pangasinan  
-
----
 
 ## Mission Overview
 
