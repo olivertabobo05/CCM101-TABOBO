@@ -110,18 +110,3 @@ docker rm nginx-server
 
 This command permanently removes the stopped `nginx-server` container from the Docker environment.
 
-## Screenshots
-
-### Docker Environment
-
-screenshots/docker-version.png
-
-### Nginx Running
-
-screenshots/nginx-running.png
-
-
-### Container Lifecycle
-
-screenshots/container-lifecycle.png
-
