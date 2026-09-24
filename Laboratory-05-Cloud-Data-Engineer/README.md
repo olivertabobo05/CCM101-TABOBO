@@ -33,13 +33,3 @@ This laboratory activity focuses on cloud object storage. The mission is to depl
 * Uploading objects through a web interface.
 * Documenting technical procedures using Markdown.
 * Organizing a cloud computing portfolio on GitHub.
-
-## Laboratory Evidence
-
-The required screenshots should be stored in the `screenshots/` directory:
-
-* `minio-deployed.png` – terminal showing the successful MinIO deployment and running container.
-* `minio-bucket-upload.png` – MinIO Web Console showing the `client-photos` bucket and uploaded file.
-
-> **Note:** The screenshots must be captured from your own KillerCoda session and added to this folder.
-
