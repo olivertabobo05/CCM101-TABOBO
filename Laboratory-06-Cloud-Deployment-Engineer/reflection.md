@@ -1,0 +1,11 @@
+# Mission 6 Reflection: The Cloud Deployment Engineer
+
+Writing a `docker-compose.yml` file makes a cloud engineer's job easier because it allows multiple containers to be configured and deployed together. Instead of manually entering several Docker commands, the engineer can define the services, images, ports, and environment variables in one file. This makes deployment more organized, repeatable, and easier to maintain. It also reduces the possibility of forgetting an important configuration when deploying the application again.
+
+An indentation error in a YAML file can prevent Docker Compose from reading the configuration correctly. YAML depends on proper spacing to identify relationships between configuration elements. Using tabs instead of spaces or placing a line at the wrong indentation level may cause a parsing error or an incorrectly structured configuration. Checking the indentation and validating the file before deployment can help prevent these problems.
+
+Environment variables, such as `MYSQL_PASSWORD` and `MYSQL_DATABASE`, are used to configure the application and database containers. They tell MariaDB which database and user to initialize and provide Nextcloud with the information it needs to connect to the database. However, passwords should be protected, and real production credentials should not be exposed in public repositories.
+
+Deploying Nextcloud with MariaDB demonstrates how a cloud storage application can be built using separate services. The process helps show that a functional application requires more than a web interface; it also needs a database and proper communication between the components. Docker Compose makes this process more manageable by bringing the services together.
+
+Since Mission 1, my understanding of cloud computing has developed from learning basic cloud concepts to understanding how applications can be deployed and managed using containers. This mission helped me appreciate Infrastructure as Code because configurations can be documented, reused, and shared. I also learned the importance of container networking, Linux commands, and technical documentation. These skills are useful for future cloud computing activities and for understanding how real-world applications are deployed.
