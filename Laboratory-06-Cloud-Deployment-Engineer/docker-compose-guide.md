@@ -40,22 +40,3 @@ The environment variable `MYSQL_HOST=database` identifies the database service b
 ## What Is the Difference Between `docker run` and `docker-compose up -d`?
 
 The `docker run` command starts an individual container using options provided directly in the command. In contrast, `docker-compose up -d` reads the Compose configuration and starts the services defined in the file in detached mode, allowing multiple related containers to be managed together.
-
-## Commands Used
-
-```bash
-mkdir nextcloud-deployment
-cd nextcloud-deployment
-nano docker-compose.yml
-docker-compose up -d
-docker-compose ps
-docker-compose down
-```
-
-## Port Mapping
-
-The configuration `8080:80` maps port 8080 on the host to port 80 inside the Nextcloud container. This allows the Nextcloud web interface to be accessed through the KillerCoda port-access feature.
-
-## Conclusion
-
-Docker Compose simplifies multi-container deployment by keeping service definitions in one configuration file. It makes the deployment process easier to repeat, maintain, and document.
